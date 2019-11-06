@@ -1,0 +1,512 @@
+*{
+box-sizing: border-box;
+margin: 0;padding: 0;
+border-radius: 3px;
+}
+
+
+html{
+  overflow-x: hidden;
+
+}
+.back{
+  background-image: url(/img/勇喔.png);
+  background-size: cover;
+  width: 100%;
+  height:80%;
+  margin-left: -60px; 
+}
+.infram{
+  margin-left: 50px;
+}
+.back2{
+  background-image: url(/img/薩尼.png);
+  background-size: cover;
+  width: 100%;
+  height:80%;
+  margin-left: 0px; 
+}
+body{
+background-color: rgb(5, 5, 5);
+display: flex;
+flex-direction:column;
+align-items: center;
+
+
+}
+.bigbox{  
+   width:1500px;
+   padding: 20px 0px 0 0px;
+   display: flex;
+   flex-direction:column;
+   height: 1200px;
+ 
+
+   
+}
+.bigbox2{  
+  width:1500px;
+  padding: 20px 0px 0 0px;
+  display: flex;
+  flex-direction:column;
+  height: 1200px;
+
+
+  
+}
+.bigimg
+  {
+    display: flex;
+    align-items: center;
+   
+   
+  }
+  .bigimg2
+  {
+    display: flex;
+    align-items: center;
+   
+   
+  }
+  .bigimg img{
+   width: 15%;
+   height:15%;
+   margin-left:1100px;
+   margin-top: -100px;
+  }
+  .bigimg2 img{
+    width: 45%;
+    height:45%;
+    margin-left:250px;
+    margin-top: -100px;
+   }
+.box1{
+
+   height:62px;
+   display:flex;
+   flex-direction: row;
+   margin-right: 50px;
+   margin-left: 100px;
+   margin-bottom: 50px;
+   margin-top: 50px;
+   padding: 50px 50px 50px 100px;
+}
+
+.stoneline{
+  margin-left: 180px;
+  margin-bottom: 50px;
+}
+
+.headernav ul{
+   background-color:  rgb(5, 5, 5);
+   justify-content:center;
+   height:44px;
+   display:flex;
+   list-style-type: none;
+   align-items: center;
+   margin-bottom: 20px;
+   margin-left: -200px;
+   transition: 0.7s;
+   
+
+   
+}
+.headernav a{
+   font-family: 'Arial Black', sans-serif;
+   color: rgb(255, 255, 255);
+   margin: 16px 30px;
+   font-size:20px;
+   flex-direction: row-reverse;
+   padding: 10px;
+   margin-left:120px ;
+
+   
+   
+ }
+ .betweenword p{
+  font-size:30px;
+  color: rgb(255, 255, 255);
+  padding: 200px 100px 5px 595px;
+
+ }
+ .word hr{
+   margin-left: 10px;
+ }
+
+ .box2{
+   display:flex;
+   flex-direction:row;
+   margin-top: 30px;
+ }
+
+ .article{
+  display:flex;
+  flex-direction:row;
+  margin-top: 30px;
+  justify-content:space-between;
+  margin-left:-20px ;
+}
+ .hot{
+   width:444px;
+   height:300px;
+   margin-right: 52px;
+   display:flex;
+   justify-content:center;
+   padding:50px 0 0px 250px  ;
+ }
+
+.hotpage{
+  margin-top:-80px;
+  
+  justify-content:center;
+
+}
+.hotimg{
+  justify-content:center;
+  display:flex;
+  padding:0 0 120px 0  ;
+}
+.hotword{
+  margin-right: -15px;
+}
+ .Lmore{
+  justify-content:center;
+  display:flex;
+  padding:0 0px 150px 0  ;
+  
+ }
+ .new{
+   width:444px;
+   height:300px;
+   display:flex;
+   
+   justify-content:center;
+   padding:50px 250px 0px 0  ;
+   }
+
+ 
+  
+    .newpage{
+      margin-top:-80px;
+     
+      justify-content:center;
+     
+
+    }
+
+    .newimg{
+      justify-content:center;
+      display:flex;
+      padding:0 0 120px 0  ;
+    } 
+    .newword{
+      margin-right: -15px;
+    }
+    
+    .Rmore{
+      justify-content:center;
+      display:flex;
+      padding:0 0px 150px 0 ;
+   
+     }
+     .box3{
+       display: flex;
+       padding: 100px 0 0 100px;
+       flex-direction: column;
+     }
+
+  .word2 p{
+    font-size:30px;
+  color: rgb(255, 255, 255);
+  padding: 0px 0px 5px 485px;
+  }
+  .word2 hr{
+    margin-left: -70px;
+  }
+
+     .me{
+      justify-content:center;
+      
+     }
+    p{
+      padding:15px;
+      font-family: 'ArialMT Regular', sans-serif;
+      font-size: 15px;
+      line-height: 1.33;
+      color:rgb(255, 255, 255);
+      padding: 0 0 50px 0 ;
+      
+    }
+    .headernav ul a:hover{
+      color: blanchedalmond;
+      background-color: #395863;
+      padding: 10px;
+      border-radius: 8px;
+      transition: background-color 1s ;
+    }
+    
+/*動態*/
+.serbox1{
+  width:100px ;
+  height: 100px;
+ border-width: 3px;
+ border-color: white;
+ border-style: solid;
+ margin-top: 350px;
+ padding: 5px 0 5px 20px;
+ margin-left: -230px;
+ margin-right: 45px;
+}
+.serbox1 p{
+  margin-top: 10px;
+  color: white;
+  font-style: inherit;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  padding: 0px 0 0px 2px ;
+}
+
+
+.serbox2{
+  width:100px ;
+  height: 100px;
+ border-width: 3px;
+ border-color: white;
+ border-style: solid;
+ margin-top: 350px;
+ padding: 5px 0 5px 20px;
+ margin-left: 40px;
+ 
+}
+
+.serbox2 p{
+  margin-top: 10px;
+  color: white;
+  font-style: inherit;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  padding: 0px 0 0px 2px ;
+}
+
+.lineup hr
+{
+ margin-top: -80px;
+ margin-left: 120px
+ 
+}
+
+.farbox1{
+  width:100px ;
+  height: 100px;
+ border-width: 3px;
+ border-color: white;
+ border-style: solid;
+ margin-top: 350px;
+ padding: 5px 0 5px 20px;
+ margin-left: -230px;
+ margin-right: 45px;
+}
+.farbox1 p{
+  margin-top: 10px;
+  color: white;
+  font-style: inherit;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  padding: 0px 0 0px 2px ;
+}
+.farbox2{
+  width:100px ;
+  height: 100px;
+ border-width: 3px;
+ border-color: white;
+ border-style: solid;
+ margin-top: 350px;
+ padding: 5px 0 5px 20px;
+ margin-left: 40px;
+
+}
+.farbox2 p{
+  margin-top: 10px;
+  color: white;
+  font-style: inherit;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  padding: 0px 0 0px 2px ;
+}
+.lineup2 hr
+{
+ margin-top: -80px;
+ margin-left: 120px
+}
+
+
+#galleryImage1 {
+  background-image: url(/img/頭貼.png) ;
+ background-position-x:50px ;
+}
+
+.overlay{
+  position: absolute;
+  transition: all .3s ease;
+  opacity: 0;
+  background-color: #eeeeee;
+}
+
+.text{
+  color:white;
+  font-family: sans-serif;
+  transform: translate(-50%,-50%);
+  font-size: 20px;
+}
+.img555{
+  opacity: 0.5;
+}
+
+/*動態*/
+.serbox1page1{
+  width:200px ;
+  height: 200px;
+ border-width: 0px;
+ border-color: white;
+ border-style: solid;
+ position: absolute;
+ top: 1040px;
+ left: 895px;
+opacity: 0;
+ 
+}
+.serbox1page1 p{
+  margin-top: 10px;
+  color: white;
+  font-style: inherit;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  padding: 0px 0 0px 2px ;
+}
+.serbox1page1 p img{
+  width: 300px;
+  margin-left: 0px;
+  margin-top:200px ;
+  }
+
+.serbox1 :hover {
+ 
+  opacity: 1.0;
+  transition: opacity 2s;
+}
+
+.serbox2page2{
+  width:200px ;
+  height: 200px;
+ border-width: 0px;
+ border-color: white;
+ border-style: solid;
+ position: absolute;
+ top: 1040px;
+ left: 1180px;
+ opacity: 0;
+}
+.serbox2page2 p{
+  margin-top: 10px;
+  color: white;
+  font-style: inherit;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  padding: 0px 0 0px 2px ;
+}
+.serbox2page2 p img{
+  width: 300px;
+  margin-left: -100px;
+  margin-top:200px ;
+  }
+.serbox2 :hover {
+ 
+  opacity: 1.0;
+  transition: opacity 2s;
+}
+.farbox1page1{
+  width:200px ;
+  height: 200px;
+ border-width: 0px;
+ border-color: white;
+ border-style: solid;
+ position: absolute;
+ top: 2245px;
+ left: 105px;
+ opacity: 0;
+}
+.farbox1page1 p{
+  margin-top: 10px;
+  color: white;
+  font-style: inherit;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  padding: 0px 0 0px 2px ;
+  
+}
+.farbox1page1 p img{
+  width: 300px;
+
+  margin-left: 0px;
+  margin-top:200px ;
+  }
+.farbox1 :hover {
+ 
+  opacity: 1.0;
+  transition: opacity 2s;
+}
+.farbox2page2{
+  width:200px ;
+  height: 200px;
+ border-width: 0px;
+ border-color: white;
+ border-style: solid;
+ position: absolute;
+ top: 2245px;
+ left: 388px;
+ opacity: 0;
+ margin-bottom: 100px;
+ 
+}
+.farbox2page2 p{
+  margin-top: 10px;
+  color: white;
+  font-style: inherit;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 200px;
+  left: 0px;
+}
+.farbox2page2 p img{
+width: 300px;
+margin-left: -100px;
+margin-top:0px ;
+}
+
+
+.farbox2 :hover {
+ 
+  opacity: 1.0;
+  transition: opacity 2s;
+}
+
+.logoimg img{
+  margin-left: -200px;
+  position: absolute;
+  left: 825px;
+  top: 70px;
+}
+
+
+
+
+

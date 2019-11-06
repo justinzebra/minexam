@@ -1,0 +1,638 @@
+*{
+  box-sizing: border-box;
+  margin: 0;padding: 0;
+  border-radius: 3px;
+  }
+  
+  
+  html{
+    overflow-x: hidden;
+  
+  }
+  /*第一*/
+  .back{
+    background-image: url(/img/奎倫底拷貝.png);
+    background-size: cover;
+    width: 100%;
+    height:80%;
+    margin-left: 10px; 
+    
+  }
+  .coverflow{
+    position: absolute;
+  }
+  .back1-2{
+    background-image: url(/img/奎倫.png);
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    margin-left: -1600px;
+    
+    
+    position: relative;
+    animation-name: pinpon;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-direction:alternate;
+    
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+  }
+  @keyframes pinpon {
+    0% {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    30% {
+      position: absolute;
+      left: 1150px;
+      top: 0px;
+    }
+    60%{
+      position: absolute;
+      left: 1600px;
+      top: 0px;
+    }
+    100% {
+      position: absolute;
+      left: 1600px;
+      top: 0px;
+      
+    }
+  }
+  
+  .back1-2:hover{
+    animation-play-state: paused;
+    
+  }
+  
+  
+  
+  
+  .back1-3{
+    background-image: url(/img/字.png);
+    background-size: cover;
+    width: 27%;
+    height:45%;
+    position: absolute; 
+    top: 850px;
+  left: 1100px;
+  }
+  
+  .cow img{
+    
+    position: absolute;
+    top: 700px;
+    left: 1200px;
+    opacity: 0.5;
+  }
+  .cow  :hover{
+    opacity: 1.0;
+    width: 12%;
+    height: 20%;
+    margin-left: -5px;
+    margin-top: -5px;
+    
+  }
+  
+  .bigbox{  
+    width:1500px;
+    padding: 20px 0px 0 0px;
+    display: flex;
+    flex-direction:column;
+    height: 1200px;
+  }
+  
+  .bigimg
+    {
+      display: flex;
+      align-items: center;
+     
+     
+    }
+    .bigimg img{
+      width: 14%;
+      height:25%;
+      margin-left:1160px;
+      margin-top: 230px;
+   
+     }
+   
+  /*第2*/
+  .back2{
+    background-image: url(/img/莉莉安底拷貝.png);
+    background-size: cover;
+    width: 100%;
+    height:80%;
+    margin-left: 10px; 
+    
+  }
+  .coverflow2{
+    position: absolute;
+  }
+  .back2-2{
+    background-image: url(/img/莉莉安.png);
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    margin-left: -1600px;
+  
+    position: relative;
+    animation-name: hey;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+  
+  }
+  @keyframes hey {
+    0% {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    30% {
+      position: absolute;
+      left: 1150px;
+      top: 0px;
+    }
+    60%{
+      position: absolute;
+      left: 1600px;
+      top: 0px;
+    }
+    100% {
+      position: absolute;
+      left: 1600px;
+      top: 0px;
+      
+    }
+  }
+  .back2-2:hover{
+    animation-play-state: paused;
+    
+  }
+  
+  .back2-3{
+    background-image: url(/img/字2.png);
+    background-size: cover;
+    width: 24%;
+    height:40%;
+    position: absolute; 
+    top: 1800px;
+  left: 1100px;
+  }
+  
+  .cow2 img{
+    
+    position: absolute;
+    top: 1650px;
+    left: 1200px;
+    opacity: 0.5;
+  }
+  .cow2  :hover{
+    opacity: 1.0;
+    width: 12%;
+    height: 20%;
+    margin-left: -5px;
+    margin-top: -5px;
+  }
+  .bigbox2{  
+    width:1500px;
+    padding: 20px 0px 0 0px;
+    display: flex;
+    flex-direction:column;
+    height: 1200px;
+    margin-top: -250px;
+  }
+  
+  .bigimg2
+    {
+      display: flex;
+      align-items: center;
+     
+     
+    }
+    .bigimg2 img{
+      width: 14%;
+      height:25%;
+      margin-left:1160px;
+      margin-top: 230px;
+   
+     }
+  /*第3*/
+  .back3{
+    background-image: url(/img/小丑底拷貝.png);
+    background-size: cover;
+    width: 100%;
+    height:80%;
+    margin-left: 10px; 
+    
+  }
+  .coverflow3{
+    position: absolute;
+  }
+  .back3-2{
+    background-image: url(/img/小丑.png);
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    margin-left: -1600px;
+  
+    position: relative;
+    animation-name: haha;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+  }
+  @keyframes haha {
+    0% {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    30% {
+      position: absolute;
+      left: 1150px;
+      top: 0px;
+    }
+    60%{
+      position: absolute;
+      left: 1600px;
+      top: 0px;
+    }
+    100% {
+      position: absolute;
+      left: 1600px;
+      top: 0px;
+      
+    }
+  }
+  .back3-2:hover{
+    animation-play-state: paused;
+    
+  }
+  .back3-3{
+    background-image: url(/img/字3.png);
+    background-size: cover;
+    width: 24%;
+    height:40%;
+    position: absolute; 
+    top: 2750px;
+  left: 1100px;
+  }
+  
+  .cow3 img{
+    
+    position: absolute;
+    top: 2580px;
+    left: 1200px;
+    opacity: 0.5;
+  }
+  .cow3  :hover{
+    opacity: 1.0;
+    width: 12%;
+    height: 20%;
+    margin-left: -5px;
+    margin-top: -5px;
+  }
+  .bigbox3{  
+    width:1500px;
+    padding: 20px 0px 0 0px;
+    display: flex;
+    flex-direction:column;
+    height: 1200px;
+    margin-top: -250px;
+  }
+  
+  .bigimg3
+    {
+      display: flex;
+      align-items: center;
+     
+     
+    }
+    .bigimg3 img{
+      width: 14%;
+      height:25%;
+      margin-left:1160px;
+      margin-top: 230px;
+   
+     }
+  /*第4*/
+  .back4{
+    background-image: url(/img/堇底拷貝.png);
+    background-size: cover;
+    width: 100%;
+    height:80%;
+    margin-left: -5px; 
+    
+  }
+  .coverflow4{
+    position: absolute;
+  }
+  .back4-2{
+    background-image: url(/img/堇.png);
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    margin-left: -1600px;
+    margin-top: -50px;
+  
+    position: relative;
+    animation-name: sos;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+  }
+  @keyframes sos {
+    0% {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      position: absolute;
+      left: 800px;
+      top: 0px;
+    }
+    50%{
+      position: absolute;
+      left: 1600px;
+      top: 0px;
+    }
+    75%{
+      position: absolute;
+      left: 1600px;
+      top: 0px;}
+    100% {
+      position: absolute;
+      left: 1600px;
+      top: 0px;
+      
+    }
+  }
+  .back4-2:hover{
+    animation-play-state: paused;
+    
+  }
+  .back4-3{
+    background-image: url(/img/字4.png);
+    background-size: cover;
+    width: 24%;
+    height:40%;
+    position: absolute; 
+    top: 3750px;
+  left: 1100px;
+  }
+  
+  .cow4 img{
+    
+    position: absolute;
+    top: 3600px;
+    left: 1200px;
+    opacity: 0.5;
+  }
+  .cow4  :hover{
+    opacity: 1.0;
+    width: 12%;
+    height: 20%;
+    margin-left: -5px;
+    margin-top: -5px;
+  }
+  .bigbox4{  
+    width:1500px;
+    padding: 20px 0px 0 0px;
+    display: flex;
+    flex-direction:column;
+    height: 1200px;
+    margin-top: -250px;
+  }
+  
+  .bigimg4
+    {
+      display: flex;
+      align-items: center;
+     
+     
+    }
+    .bigimg4 img{
+      width: 14%;
+      height:25%;
+      margin-left:1160px;
+      margin-top: 230px;
+   
+     }
+  
+     /*結束*/
+  body{
+  background-color: rgb(5, 5, 5);
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  width: 1550px;
+  }
+  
+  
+    
+    
+   
+  .box1{
+  
+     height:62px;
+     display:flex;
+     flex-direction: row;
+     margin-right: 50px;
+     margin-left: 100px;
+     margin-bottom: 50px;
+     margin-top: 100px;
+     padding: 50px 50px 50px 100px;
+    
+  }
+  
+  .stoneline{
+    margin-left: 180px;
+    margin-bottom: 0px;
+  }
+  
+  .headernav ul{
+     background-color:  rgb(5, 5, 5);
+     justify-content:center;
+     height:44px;
+     display:flex;
+     list-style-type: none;
+     align-items: center;
+     margin-bottom: 20px;
+     margin-left: -200px;
+     transition: 0.7s;
+     
+  
+     
+  }
+  .headernav a{
+     font-family: 'Arial Black', sans-serif;
+     color: rgb(255, 255, 255);
+     margin: 16px 30px;
+     font-size:20px;
+     flex-direction: row-reverse;
+     padding: 10px;
+     margin-left:120px ;
+  
+     
+     
+   }
+   .betweenword p{
+    font-size:30px;
+    color: rgb(255, 255, 255);
+    padding: 200px 100px 5px 595px;
+  
+   }
+   .word hr{
+     margin-left: 10px;
+   }
+  
+   .box2{
+     display:flex;
+     flex-direction:row;
+     margin-top: 30px;
+   }
+  
+   .article{
+    display:flex;
+    flex-direction:row;
+    margin-top: 30px;
+    justify-content:space-between;
+    margin-left:-20px ;
+  }
+   .hot{
+     width:444px;
+     height:300px;
+     margin-right: 52px;
+     display:flex;
+     justify-content:center;
+     padding:50px 0 0px 250px  ;
+   }
+  
+  .hotpage{
+    margin-top:-80px;
+    
+    justify-content:center;
+  
+  }
+  .hotimg{
+    justify-content:center;
+    display:flex;
+    padding:0 0 120px 0  ;
+  }
+  .hotword{
+    margin-right: -15px;
+  }
+   .Lmore{
+    justify-content:center;
+    display:flex;
+    padding:0 0px 150px 0  ;
+    
+   }
+   .new{
+     width:444px;
+     height:300px;
+     display:flex;
+     
+     justify-content:center;
+     padding:50px 250px 0px 0  ;
+     }
+  
+   
+    
+      .newpage{
+        margin-top:-80px;
+       
+        justify-content:center;
+       
+  
+      }
+  
+      .newimg{
+        justify-content:center;
+        display:flex;
+        padding:0 0 120px 0  ;
+      } 
+      .newword{
+        margin-right: -15px;
+      }
+      
+      .Rmore{
+        justify-content:center;
+        display:flex;
+        padding:0 0px 150px 0 ;
+     
+       }
+       .box3{
+         display: flex;
+         padding: 100px 0 0 100px;
+         flex-direction: column;
+       }
+  
+    .word2 p{
+      font-size:30px;
+    color: rgb(255, 255, 255);
+    padding: 0px 0px 5px 485px;
+    }
+    .word2 hr{
+      margin-left: -70px;
+    }
+  
+       .me{
+        justify-content:center;
+        
+       }
+      p{
+        padding:15px;
+        font-family: 'ArialMT Regular', sans-serif;
+        font-size: 15px;
+        line-height: 1.33;
+        color:rgb(255, 255, 255);
+        padding: 0 0 50px 0 ;
+        
+      }
+      .headernav ul a:hover{
+        color: blanchedalmond;;
+        background-color: #395863;
+        padding: 10px;
+        border-radius: 8px;
+        transition: background-color 1s ;
+      }
+      
+  /*動態*/
+  .serbox1{
+    width:100px ;
+    height: 100px;
+   border-width: 3px;
+   border-color: white;
+   border-style: solid;
+   margin-top: 350px;
+   padding: 5px 0 5px 20px;
+   margin-left: -230px;
+   margin-right: 45px;
+  }
+  .serbox1 p{
+    margin-top: 10px;
+    color: white;
+    font-style: inherit;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    padding: 0px 0 0px 2px;}
+    
+    .logoimg img{
+      margin-left: -200px;
+      position: absolute;
+      left: 825px;
+      top: 70px;
+    }
